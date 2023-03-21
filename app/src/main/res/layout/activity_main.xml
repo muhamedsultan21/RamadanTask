@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.motion.widget.MotionLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity">
+
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/mosque" />
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/lottieAnimationView2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/doaa"
+        tools:layout_editor_absoluteY="94dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/text_view_style"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/prayer_text_view_bg"
+        android:text="@string/text_al_fajr_prayer"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/text_view_style"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/prayer_text_view_bg"
+        android:text="@string/text_al_duher_prayer"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="538dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/text_asr_prayer"
+        android:background="@drawable/prayer_text_view_bg"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="538dp"
+        style="@style/text_view_style"
+        />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/text_maghreb_prayer"
+        android:background="@drawable/prayer_text_view_bg"
+        tools:layout_editor_absoluteX="-18dp"
+        tools:layout_editor_absoluteY="622dp"
+        style="@style/text_view_style" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/text_view_style"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="@drawable/prayer_text_view_bg"
+        android:text="@string/text_eshaa_prayer"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="505dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/al_fajr_prayer_time"
+        android:gravity="end"
+        android:background="@drawable/time_text_view_bg"
+        tools:layout_editor_absoluteX="225dp"
+        tools:layout_editor_absoluteY="125dp"
+        style="@style/text_view_style" />
+
+    <TextView
+        android:id="@+id/textView7"
+        style="@style/text_view_style"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/al_duher_prayer_time"
+        android:gravity="end"
+        android:background="@drawable/time_text_view_bg"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="285dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        style="@style/text_view_style"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/al_asr_prayer_time"
+        android:gravity="end"
+        android:background="@drawable/time_text_view_bg"
+        tools:layout_editor_absoluteX="58dp"
+        tools:layout_editor_absoluteY="52dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        style="@style/text_view_style"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/al_maghreb_prayer_time"
+        android:gravity="end"
+        android:background="@drawable/time_text_view_bg"
+        tools:layout_editor_absoluteX="106dp"
+        tools:layout_editor_absoluteY="63dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        style="@style/text_view_style"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/al_eshaa_prayer_time"
+        android:gravity="end"
+        android:background="@drawable/time_text_view_bg"
+        tools:layout_editor_absoluteX="250dp"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        style="@style/text_view_style"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="132dp"
+        android:text="@string/swipe_animation"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.503"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lottieAnimationView"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:text="@string/prayers_time"
+        android:textColor="@color/white"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteY="44dp" />
+
+
+</androidx.constraintlayout.motion.widget.MotionLayout>

@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Ramadan</string>
+    <string name="text_al_fajr_prayer">Fajr prayer</string>
+    <string name="text_al_duher_prayer">Duher prayer</string>
+    <string name="text_asr_prayer">Asr prayer</string>
+    <string name="text_maghreb_prayer">Maghreb prayer</string>
+    <string name="text_eshaa_prayer">Eshaa prayer</string>
+    <string name="al_fajr_prayer_time">4:29 Am</string>
+    <string name="al_duher_prayer_time">12:02 Pm</string>
+    <string name="al_asr_prayer_time">3:30 Pm</string>
+    <string name="al_maghreb_prayer_time">6:08 Pm</string>
+    <string name="al_eshaa_prayer_time">7:26 Pm</string>
+    <string name="swipe_animation">Swipe to see prayers time today</string>
+    <string name="prayers_time">Prayers time today</string>
+</resources>
